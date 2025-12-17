@@ -1,5 +1,5 @@
-import type { Middleware } from '../../redux/types/middleware';
-import { createThunkMiddleware } from '../createThunkMiddleware';
+import type { Middleware } from 'ddd-redux/dist/types/middleware';
+import { createThunkMiddleware } from '@/createThunkMiddleware';
 
 /**
  * Готовый к использованию thunk middleware.
